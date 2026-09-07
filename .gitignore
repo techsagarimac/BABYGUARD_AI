@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Downloaded AI weights (large files)
+models/*.pt
+models/*.onnx
+models/*.task
+!models/README.md
+
+# Local demo captures
+data/*.jpg
+data/*.png
+data/*.mp4
+!data/README.md
